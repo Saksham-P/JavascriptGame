@@ -1,0 +1,327 @@
+body {
+	background-image: linear-gradient(#00FFAA, #00FFEC, #00E0FF, #0097FF, #0059FF, #0004FF);
+}
+
+.Title {
+	width: 1900px;
+	height: 300px;
+	background-image: url(AssassinBack.png);
+	border-radius: 55px;
+}
+
+.img {
+	background-image: url('Assassin Logo-Hov.png') ;
+	position: absolute;
+	top: 30px;
+	right: 30%;
+	height: 260px;
+	width: 900px;
+}
+
+.img:hover {
+	background-image: url('Assassin Logo.png');
+}
+
+.Header {
+	background-color: #453636;
+	overflow: hidden;
+	width: 100%;
+	margin: auto;
+	border-radius: 25px;
+}
+
+
+.Header a {
+	float: left;
+	color: #FF0000;
+	text-align: center;
+	padding: 7px 17px;
+	text-decoration: none;
+	font-size: 35px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+#Header-right {
+	float: right;
+}
+
+.Header a:hover {
+	background-color: blue;
+	color: black
+}
+
+.Header a.active {
+	background-color: red;
+	color:blue
+}
+
+* {box-sizing:border-box}
+
+.Slide {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.MySlide {
+	display: none
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.Number {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #717171;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #bbb; 
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+.button {
+	text-align: center;
+	margin: auto;
+}
+
+#btn {
+	font-size:36px;
+	text-align: center;
+	background-color: #00387F;
+	border-radius: 30px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	height: 70px;
+	margin: auto;
+	color: white;
+}
+
+#btn:hover {
+	box-shadow: 4px 4px 3px 4px black;
+}
+
+#mySidenav a {
+	position: fixed;
+	left: -128px; 
+	transition: 0.3s; 
+	padding-top: 10px; 
+	width: 180px; 
+	text-decoration: none; 
+	font-size: 40px; 
+	background-color: #00BF0F; 
+	border-radius: 14px; 
+	height: 70px;
+	text-align: center;
+	color: black;
+}
+
+#mySidenav a:hover {
+  	height: 70px;
+	width: 190px;
+	color: #00BF0F;
+	background-color: black;
+	left: 0px;
+	
+}
+
+#Donate {
+  	top: 500px;
+    bottom: 560px;
+    right: 1000px; 
+}
+
+#btnn {
+	font-size:36px;
+	text-align: center;
+	background-color: lawngreen;
+	border-radius: 30px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	height: 70px;
+	margin: auto;
+	color: white;
+}
+
+#btnn:hover {
+	box-shadow: 4px 4px 3px 4px black;
+}
+
+.two {
+	margin: auto;
+}
+
+#Process {
+	color: #FF0000;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 90px;
+}
+.images {
+	width: 45%;
+	height: 45%;
+	transition: transform .25s;
+}
+
+.images:hover {
+	transform: scale(1.7);
+}
+
+.type {
+	font-size: 20px;
+	color: lime;
+}
+
+.foot {
+	background-color: slategray;
+	width: 1900px;
+	height: 160px;
+	border-radius: 20px;
+	text-align: center;
+
+}
+
+.footer {
+	color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20px;
+}
+
+table {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	border-collapse: collapse;
+	width: 55%;
+}
+
+td, th {
+	border: 2px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+	font-size: 18px;
+
+}
+
+tr:nth-child(even) {
+  	background-color: #dddddd;
+}
+
+#Updates {
+	text-align: center;
+	margin: auto;
+}
+
+.mine {
+	font-size: 60px;
+	color: white;
+}
+
+
+@keyframes bounceIn{
+  	0%{
+    	opacity: 0;
+    	transform: scale(0.3) translate3d(0,0,0);
+  	}
+  	50%{
+    	opacity: 0.9;
+    	transform: scale(1.1);
+  	}
+  	80%{
+    	opacity: 1;
+    	transform: scale(0.89);
+  	}
+  	100%{
+    	opacity: 1;
+    	transform: scale(1) translate3d(0,0,0);
+  	}
+}
+
+.Title{
+  	opacity: 0;
+  	animation-name: bounceIn;
+  	animation-duration: 450ms;
+  	animation-timing-function: linear;
+  	animation-fill-mode: forwards;
+}
+
+
+.Header{
+  	opacity: 0;
+  	animation-name: bounceIn;
+  	animation-duration: 450ms;
+  	animation-timing-function: linear;
+  	animation-fill-mode: forwards;
+	animation-delay: 0.2s;
+}
+
+.Slide{
+  	opacity: 0;
+  	animation-name: bounceIn;
+  	animation-duration: 450ms;
+  	animation-timing-function: linear;
+  	animation-fill-mode: forwards;
+	animation-delay: 0.4s;
+}

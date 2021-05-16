@@ -1,0 +1,215 @@
+body {
+	background-image: url(GameBack.jfif);
+	background-size: cover;
+}
+
+.Title {
+	text-align: center;
+	background-color: blue;
+	color: red;
+	font-size: 34px;
+	border-radius: 20px;
+	width: 77%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin: auto;
+	box-shadow: 8px 6px 2px 4px white;
+}
+
+
+#myCanvas {
+	border: 7px solid white;
+	width: 1300px; 
+	height: 600px;
+	padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+	background-image: url(Start.png);
+ 
+}
+
+.now {
+	text-align: center;
+}
+
+.Header {
+	background-color: #453636;
+	overflow: hidden;
+	width: 75%;
+	margin: auto;
+	border-radius: 25px;
+}
+
+
+.Header a {
+	float: left;
+	color: #FF0000;
+	text-align: center;
+	padding: 7px 17px;
+	text-decoration: none;
+	font-size: 35px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+#Header-right {
+	float: right;
+}
+
+.Header a:hover {
+	background-color: blue;
+	color: black
+}
+
+.Header a.active {
+	background-color: red;
+	color: blue
+}
+
+#Clay {
+	font-size: 40px;
+	background-color: blue;
+	position: absolute;
+	left: 745px;
+	top: 687px;
+	border-radius: 12px;
+	color: white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	box-shadow: 3px 5px 3px 5px black;
+}
+
+#Clay:hover {
+	box-shadow: none;
+	left: 750px;
+	top: 690px;
+}
+
+#Pro {
+  	width: 60%;
+  	background-color: black;
+	border-radius: 12px;
+	position: absolute;
+	top: 780px;
+	left: 384px;
+	visibility: hidden;
+}
+
+#Bar {
+  	width: 0%;
+  	height: 30px;
+  	background-color: blue;
+ 	text-align: center;
+  	line-height: 30px;
+  	color: white;
+	visibility: hidden;
+	border-radius: 12px;
+}
+
+#video {
+	position: absolute;
+	top: 220px;
+	left: 590px;
+	visibility: hidden;
+}
+
+#tag {
+	font-size: 30px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	position: absolute;
+	top: 650px;
+	left: 634px;
+	visibility: hidden;
+	color: white;
+}
+
+@keyframes bounceIn{
+  	0%{
+    	opacity: 0;
+    	transform: scale(0.3) translate3d(0,0,0);
+  	}
+  	50%{
+    	opacity: 0.9;
+    	transform: scale(1.1);
+  	}
+  	80%{
+    	opacity: 1;
+    	transform: scale(0.89);
+  	}
+  	100%{
+    	opacity: 1;
+    	transform: scale(1) translate3d(0,0,0);
+  	}
+}
+
+@keyframes bounceIn{
+  	0%{
+    	opacity: 0;
+    	transform: scale(0.3) translate3d(0,0,0);
+  	}
+  	50%{
+    	opacity: 0.9;
+    	transform: scale(1.1);
+  	}
+  	80%{
+    	opacity: 1;
+    	transform: scale(0.89);
+  	}
+  	100%{
+    	opacity: 1;
+    	transform: scale(1) translate3d(0,0,0);
+  	}
+}
+
+.Header{
+  	opacity: 0;
+  	animation-name: bounceIn;
+  	animation-duration: 450ms;
+  	animation-timing-function: linear;
+  	animation-fill-mode: forwards;
+}
+
+.Title{
+  	opacity: 0;
+  	animation-name: bounceIn;
+  	animation-duration: 450ms;
+  	animation-timing-function: linear;
+  	animation-fill-mode: forwards;
+	animation-delay: 0.2s;
+}
+
+@keyframes bounceIn{
+  	0%{
+    	opacity: 0;
+    	transform: scale(0.3) translate3d(0,0,0);
+  	}
+  	50%{
+    	opacity: 0.9;
+    	transform: scale(1.1);
+  	}
+  	80%{
+    	opacity: 1;
+    	transform: scale(0.89);
+  	}
+  	100%{
+    	opacity: 1;
+    	transform: scale(1) translate3d(0,0,0);
+  	}
+}
+
+.now, #Clay{
+  	opacity: 0;
+  	animation-name: bounceIn;
+  	animation-duration: 450ms;
+  	animation-timing-function: linear;
+  	animation-fill-mode: forwards;
+	animation-delay: 0.4s;
+}
+
+#imgg {
+	position: absolute;
+	top: 275px;
+	left: 310px;
+	visibility: hidden;
+	width: 1300px;
+	height: 600px;
+}

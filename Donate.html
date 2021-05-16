@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Donate</title>
+<link rel="stylesheet" href="Form.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="Head">
+	<h1>DONATE AS MUCH OR AS LESS AS YOU LIKE</h1>                              <!-- Header -->
+</div>
+
+<div id="mySidenav" class="sidenav">
+	<a href="index.html" id="Donate">Back To Main Page<i class="fa fa-home" ></i></a>
+</div>
+
+<div class="Form">
+	<h1 id="Head"> Purchase </h1>
+	<div class="Forum">
+		<form action="../Donate.html/NameForm.php" method="post">                                <!-- This is where the whole form starts -->
+			<br>
+			<i class="fa fa-user" style="font-size:20px;color:black"></i>
+			<label for="fname" class="New"> Name on Card </label>
+			<br>
+			<input type="text" name="fname" class="input" placeholder="Joe">
+			<br>
+			<br>
+			<i class="fa fa-envelope"></i>
+			<label for="lname" class="New"> Email </label>
+			<br>
+			<input type="text" name="lname" class="input" placeholder="Joe@example.com">
+			<br>
+			<br>
+			<i class="fa fa-address-card-o"></i>
+			<label for="Adress" class="New"> Adress </label>
+			<br>
+			<input type="text" name="Adress" class="input" placeholder="12 Taradale NE">
+			<br>
+			<br>
+			<i class="fa fa-institution"></i>
+			<label for="City" class="New"> City </label>
+			<br>
+			<input type="text" name="City" class="input" placeholder="Edmonton">	
+			<br>
+			<br>
+			
+			<div class="row">
+              <div class="col-50">
+                <label for="Province"> Province </label>
+                <br>
+                <input type="text" class="input" name="Province" placeholder="Alberta">
+              </div>
+              <div class="col-50">
+                <label for="ZIP" class="New"> ZIP </label>
+                <br>
+                <input type="text" class="input" name="ZIP" placeholder="A1B 2C3">
+              </div>
+			</div> 
+			<br>
+				<div class="list">
+					<div class="col-50">
+						<label> Preset Amount </label>
+						<br>
+						<select id="options">
+							<option value = "0"> Choose a Ticket</option>
+							<option value = "1">$5</option>
+               				<option value = "2">$10</option>
+               				<option value = "3">$20</option>
+               				<option value = "4">$50</option>
+               				<option value = "5">$100</option>
+						</select>
+					</div>
+					<div class="col-50">
+						<label for="Quantity" class="New"> Custom Amount </label>
+						<br>
+						<input type="number" class="input" name="Quantity" placeholder="$23">
+					</div>
+				</div>
+			<br>
+			<br>
+			<div id="Save">
+				<input type="checkbox" name="Save" value="Computer" > Remember me on this computer<br>
+			</div>
+		</form>
+	</div>
+	<div class="Credit">
+	<br>
+	 <label for="fname">Accepted Cards</label>
+           <br>
+           <br>
+            <div class="icon-container">
+            	<i class="fa fa-cc-visa" style="color:navy; font-size: 40px"></i>
+              	<i class="fa fa-cc-mastercard" style="color:red; font-size: 40px"></i>
+            </div>
+            <br>
+		<form action="CreditForm.php" method="post">
+			<label for="Creditno" class="New"> Credit Card Number </label>
+			<br>
+			<input type="text" name="Creditno" class="input" placeholder="1234 5678 9012 3456">
+			<br>
+			<br>
+			<label for="Date" class="New"> Expiration Date </label>
+			<br>
+			<input type="date" name="Date" class="input" placeholder="YYYY-MM-DD">
+			<br>
+			<br>
+			<label for="CVV" class="New"> CVV </label>
+			<br>
+			<input type="password" name="CVV" class="input" placeholder="123">
+			<br>
+			<br>
+			<i class="fa fa-cc-paypal" style="color:blue; font-size: 40px"></i>
+			<br>
+			<br>
+			<label for="Creditno" class="New"> Account E-Mail </label>
+			<br>
+			<input type="text" name="Creditno" class="input" placeholder="joe@example.com">
+			<br>
+			<br>
+			<label for="Date" class="New"> Password </label>
+			<br>
+			<input type="password" name="Date" class="input">
+		</form>
+	</div> 
+	<input type="submit" value="Thank You For Donate" class="sub">
+</div>
+
+</body>
+</html>

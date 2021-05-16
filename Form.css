@@ -1,0 +1,155 @@
+body {
+	background-color: #00BF0F;
+}
+
+.Head {
+	text-align: center;
+	background: #0200EC;
+	border-radius: 12px;
+	width: 55%;
+	margin: auto;
+	height: 75px;
+	box-shadow: 4px 5px 6px 5px darkblue;
+}
+
+h1 {
+	color: red;
+	font-size: 43px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.Form {
+	background-color: #00BF0F;
+	width: 50%;
+	border-radius: 25px;
+	text-align: center;
+	margin: auto;
+	height: 860px;
+}
+
+#Head {
+	text-align: center;
+	color: white;
+	
+}
+
+.Forum {
+	background-color: gray;
+	text-align: center;
+	width: 49%;
+	height: 600px;
+	border-radius: 25px;
+	left: 100px;
+	flex: 50%
+}
+
+.Credit {
+	background-color: gray;
+	text-align: center;
+	width: 49%;
+	height: 600px;
+	border-radius: 25px;
+	margin-left: auto;
+	position: relative;
+	top: -600px	
+}
+
+.New {
+	font-size: 16px;
+	margin-right: auto;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+.input {
+	width: 87%;
+	height: 30px;
+	text-align: left;
+	border-radius: 10px
+		
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.col-50 {
+  -ms-flex: 45%; 
+  flex: 45%;
+}
+
+
+.list {
+	display: -ms-flexbox; 
+   	display: flex;
+  	-ms-flex-wrap: wrap; 
+  	flex-wrap: wrap;
+ 	margin: 0 -10px;
+}
+
+#options {
+	width: 87%;
+	height: 38px;
+	text-align: left;
+	border-radius: 10px
+		
+}
+
+#Save {
+	font-size: 20px;
+	border-radius: 10px
+}
+
+.sub {
+	position: absolute;
+	top: 900px;
+	margin-bottom: auto;
+	left: 41.8%;
+	border-radius: 15px;
+	font-size: 50px;
+	font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+
+}
+
+.sub:hover {
+	top: 895px;
+	left: 41%;
+	box-shadow: 3px 3px 2px 3px white;
+	cursor:pointer
+}
+
+#mySidenav a {
+	position: fixed;
+	left: -128px; 
+	transition: 0.3s; 
+	padding-top: 10px; 
+	width: 180px; 
+	text-decoration: none; 
+	font-size: 20px; 
+	background-color: #00BF0F; 
+	border-radius: 14px; 
+	height: 70px;
+	text-align: center;
+	color: black;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#mySidenav a:hover {
+  	height: 70px;
+	width: 190px;
+	color: #00BF0F;
+	background-color: black;
+	left: 0px;
+	
+}
+
+#Donate {
+  	top: 500px;
+    bottom: 560px;
+    right: 1000px; 
+}
+

@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Demo</title>
+<link rel="stylesheet" href="Demo.css">
+</head>
+<body>
+
+<div>
+	<div class="Header" id="MyHeader">
+		<a href="index.html">Home</a>
+		<a class="active" href="Demo.html"> JavaScript Game </a>          <!-- Header linking with other websites -->
+		<div id="Header-right">
+			<a href="https://github.com/Saksham-P/JavascriptGame"> About </a>
+		</div>
+	</div>
+</div>
+
+<div class="Title">
+	<h1> Game Made from JavaScript (In-Progress)</h1>       <!-- Title -->
+</div>
+
+<div class="now">
+	<canvas id="myCanvas"></canvas>                       <!-- Canvas -->
+</div>
+
+<h1 id="tag"> Enjoy This Video While The Game Loads</h1>
+
+<div id="Pro">
+  <div id="Bar">0%</div>
+</div>
+
+<video width="700" height="525" id="video">
+  <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+</video>
+
+<img id="imgg" src="GameOver.jfif"> 
+
+<button onClick="startGame()" id="Clay">Click Here to Play Now</button>   <!-- button that starts the game -->
+
+<script src="Demo.js"></script>                <!-- linking the script -->
+</body>
+</html>
