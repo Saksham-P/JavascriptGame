@@ -10,7 +10,7 @@ function startGame() {
 	"use strict";
 	loading();
     myGamePiece = new component(30, 30, "GamePiece.png", 10, 389, "image");              /* Javascript that controls the movment of the character and the background/when the game loads*/
-	myBackground = new component1(1300, 601, "Background.png", 0, 0, "image");
+	myBackground = new component1(1300, 601, "background.png", 0, 0, "image");
 	var button = document.getElementById("Clay");
 	button.style.display = "none";
 }
@@ -266,14 +266,14 @@ function component1(width, height, color, x, y, type) {
         this.y += this.speedY;
 	};
 	this.lvl1 = function() {
-		myBackground = new component1(1300, 601, "Background1.png", 0, 0, "image");
+		myBackground = new component1(1300, 601, "background1.png", 0, 0, "image");
 	};
 	this.lvl2 = function() {
-		myBackground = new component1(1300, 601, "Background2.png", 0, 0, "image");
+		myBackground = new component1(1300, 601, "background2.png", 0, 0, "image");
 
 	};
 	this.lvl0 = function() {
-		myBackground = new component1(1300, 601, "Background.png", 0, 0, "image");
+		myBackground = new component1(1300, 601, "background.png", 0, 0, "image");
 
 	};
 	this.lvl00 = function() {
